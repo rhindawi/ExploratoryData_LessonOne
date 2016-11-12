@@ -1,8 +1,4 @@
-## First we need to download DPLYR and run it 
-
-library(dplyr)
-
-## Next lets actually read the file.
+## Welcome -- Some of the header codes will be the same across the plots.
 ## I changed the name of the file cause it caused on an error on my mac. No idea why.
 
 power <- read.csv("household_power_consumption_NEWNAME.txt", sep=";", header=TRUE,stringsAsFactors=FALSE,na.strings="?")
